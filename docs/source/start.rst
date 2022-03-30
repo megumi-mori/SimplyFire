@@ -11,7 +11,7 @@ Executable files (for Windows) are made available for each release on GitHub.
 
 Check out the latest GitHub releases `here <https://github.com/megumi-mori/SimplyFire/releases>`_.
 
-`Download the SimplyFire zip file <https://github.com/megumi-mori/SimplyFire/releases/download/v0.4.2-beta/SimplyFire0.4.2.zip>`_
+`Download the SimplyFire zip file <https://github.com/megumi-mori/SimplyFire/releases/download/v0.4.2/SimplyFire0.4.2.zip>`_
 
 Extract the contents of the zip file.
 Within the ``SimplyFire`` root folder, locate ``SimplyFire.exe``.

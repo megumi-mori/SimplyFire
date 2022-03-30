@@ -96,6 +96,18 @@ Use decay to extrapolate halfwidth
   be calculated. Checking this option allows SimplyFire to estimate
   the halfwidth using the decay properties.
 
+Minimum valley size in % of peak amplitude
+  Input available if analyzing compound minis.
+  Enter a percentage of the maximum amplitude that must be reached during the
+  decay phase before the next mini.
+
+Ignore minis closer than (ms)
+  Input available if analyzing compound minis.
+  Enter the radius around the peak that should be ignored while
+  searching for compound minis.
+  Increase this value if the automated analysis is picking up noise around
+  the peak.
+
 Decay calculation method
   Two algorithms are available to estimate the decay constant (tau):
   ``Curve fit`` or ``% amplitude``
@@ -124,21 +136,10 @@ Maximum x-interval considered for decay (ms)
 Analyze compound minis
   Select this checkbox to analyze compound minis
 
-Minimum valley size in % of peak amplitude
-  Input available if analyzing compound minis.
-  Enter a percentage of the maximum amplitude that must be reached during the
-  decay phase before the next mini.
-
 Maximum interval between two peaks to use compound mini analysis (ms)
   Input available if analyzing compound minis.
   Enter the maximum range between two minis that should use compound mini analysis.
 
-Ignore minis closer than (ms)
-  Input available if analyzing compound minis.
-  Enter the radius around the peak that should be ignored while
-  searching for compound minis.
-  Increase this value if the automated analysis is picking up noise around
-  the peak.
 
 Apply button
   Apply the parameters for future analysis.
