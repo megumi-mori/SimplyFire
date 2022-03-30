@@ -9,9 +9,9 @@ Installation
 
 Executable files (for Windows) are made available for each release on GitHub.
 
-Check out the latest GitHub releases `here <https://github.com/megumi-mori/SimplyFire-beta/releases>`_.
+Check out the latest GitHub releases `here <https://github.com/megumi-mori/SimplyFire/releases>`_.
 
-`Download the SimplyFire zip file <https://github.com/megumi-mori/SimplyFire-beta/releases/download/v0.3.3-beta/SimplyFire0.3.3.zip>`_
+`Download the SimplyFire zip file <https://github.com/megumi-mori/SimplyFire/releases/download/v0.4.2-beta/SimplyFire0.4.2.zip>`_
 
 Extract the contents of the zip file.
 Within the ``SimplyFire`` root folder, locate ``SimplyFire.exe``.
@@ -25,7 +25,7 @@ That's it!
   If this happens, check the Task Manager to see if the memory usage for SimplyFire is increasing.
   After a complete load, SimplyFire should use about 100MB of RAM.
 
-  If you encounter this error, please report `here <https://github.com/megumi-mori/SimplyFire-beta/issues/24>`_.
+  If you encounter this error, please report `here <https://github.com/megumi-mori/SimplyFire/issues/1>`_.
   Please include the load log on the console (version>=0.3.3).
 
 Supported systems:
@@ -38,12 +38,12 @@ Python Installation (advanced)
 
 SimplyFire can be installed as a Python module through PyPI.
 
-Install SimplyFire from `TestPyPI <https://test.pypi.org/project/SimplyFire/>`_ using
+Install SimplyFire from `PyPI <https://pypi.org/project/SimplyFire/>`_ using
 `pip` as follows:
 
 .. code:: console
 
-  $ pip install -i https://test.pypi.org/simple/ simplyfirebeta
+  $ pip install -i simplyfire
 
 
 The package will be made available on the main PyPI database in the future for stable releases.
@@ -83,7 +83,7 @@ Source Code (developer)
 ^^^^^^^^^^^^^^^^^^^^^^^^
 SimplyFire is entirely written in Python.
 
-The source code can be found in the `GitHub repository <https://github.com/megumi-mori/SimplyFire-beta>`_
+The source code can be found in the `GitHub repository <https://github.com/megumi-mori/SimplyFire>`_
 
 Algorithm specific to a plugin are stored as separate submodules.
 These modules do not require the GUI component, and may be imported independently of the GUI application.

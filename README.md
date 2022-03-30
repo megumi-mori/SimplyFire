@@ -5,7 +5,7 @@ Read the full manual [here](https://simplyfire-beta.readthedocs.io/).
 
 ## .exe Installation
 
-Download the software zip file from the recent [release](https://github.com/megumi-mori/SimplyFire-beta/releases).
+Download the software zip file from the recent [release](https://github.com/megumi-mori/SimplyFire/releases).
 You only need to download the zip file.
 
 Extract the contents of the zip file, and locate SimplyFire.exe to run the software.
@@ -13,17 +13,13 @@ Extract the contents of the zip file, and locate SimplyFire.exe to run the softw
 ## Python Installation
 If you have Python, you can install and run SimplyFire as a Python module. 
 
-You can install SimplyFire from [TestPyPI](https://test.pypi.org/project/simplyfirebeta/) using 
+You can install SimplyFire from [PyPI](https://pypi.org/project/simplyfire/) using 
 `pip` as follows:
 
 
 ```bash 
-pip install -i https://test.pypi.org/simple/ simplyfirebeta
+pip install simplyfire
 ```
-
-The package will be made available on PyPI in the future for stable releases. 
-
-
 
 Once installed, you can run SimplyFire from any directory: 
 

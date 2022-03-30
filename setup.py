@@ -37,11 +37,12 @@ with open('README.md') as readme_file:
 
 setup(
     name='simplyfire',
-    version='0.4.0',
+    version='0.4.2',
     author='Megumi Mori',
     description='Customizable electrophysiology analysis software',
     long_description=readme,
-    url="https://github.com/megumi-mori/SimplyFire-beta",
+    long_description_content_type='text/markdown',
+    url="https://simplyfire.readthedocs.io/",
     pakage_dir={'simplyfire':'simplyfire'},
     packages = find_packages(),
     entry_points={
