@@ -18,3 +18,6 @@ simplyfire/setting/setting_config.yaml
 simplyfire.egg-info/*
 
 docs/build/*
+
+venv/*
+.idea/*
