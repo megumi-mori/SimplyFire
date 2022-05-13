@@ -1,0 +1,11 @@
+name: 'mini_avg'
+title: 'Mini Avg'
+author: 'MM'
+description: 'Create average mini plots. Part of CORE plugins'
+version: '1.0.0'
+minimumCoreVersion: '0.3.1'
+scripts:
+  - 'mini_avg_GUI'
+requirements:
+  - 'mini_analysis'
+

@@ -115,7 +115,7 @@ def find_mini_auto(xlim=None,
                    sampling_rate=None,
                    channel=0,
                    sweeps=None,
-                   auto_radius=None,
+                   auto_diameter=None,
                    kernel=100,
                    stride=None,
                    direction=1,
@@ -142,7 +142,7 @@ def find_mini_auto(xlim=None,
         sampling_rate: float - sampling rate of xs
         channel: int indicating the channel number to analyze. Only required if xs and ys are not provided
         sweeps: list of int indicating the sweeps to analyzer. If left None, all sweeps will be considered
-        auto_radius: x-axis window to be considered per iteration in ms.
+        auto_diameter: x-axis window to be considered per iteration in ms.
             If left empty, defaults to the values indicated in kernel and stride parameters
         kernel: int representing the number of indices to consider per iteration.
             The most extreme data point within the kernel will be tested as a candidate mini peak.
@@ -181,7 +181,7 @@ def find_mini_auto(xlim=None,
     except:
         xlim_idx = (0, len(xs))
 
-    if auto_radius is not None:
+    if auto_diameter is not None:
         if sampling_rate is None:
             sampling_rate = 1 / np.mean(xs[1:5] - xs[0:4])
         elif sampling_rate == 'auto':
@@ -189,7 +189,7 @@ def find_mini_auto(xlim=None,
                 sampling_rate = recording.sampling_rate
             except:
                 sampling_rate = 1 / np.mean(xs[1:5] - xs[0:4])
-        kernel = int(auto_radius / 1000 * sampling_rate)
+        kernel = int(auto_diameter / 1000 * sampling_rate)
     if stride is None:
         stride = int(kernel / 2)
 
